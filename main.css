@@ -114,13 +114,13 @@ form {
     flex-direction: column;
     width: 400px;
     margin-bottom: 50px;
+    background-color: linear-gradient(90deg, rgba(23,104,156,1) 0%, rgba(19,80,123,1) 100%);
 }
 
 .form {
     display: flex;
     justify-content: center;
     padding: 50px;
-    background-color: #;
 }
 
 form input {
@@ -128,4 +128,9 @@ form input {
     margin-bottom: 16px 16px 8px 16px;
     padding: 7px;
     background-color: #ffffff
+}
+
+.style-form {
+    background: linear-gradient(90deg, rgba(23,104,156,1) 0%, rgba(19,80,123,1) 100%);
+    width: 100%;
 }
