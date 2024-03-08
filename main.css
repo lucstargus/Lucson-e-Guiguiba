@@ -11,6 +11,20 @@ body {
     background-color: #0F0F0F;
 }
 
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__title {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+}
+
 .container {
     width: 1280px;
     margin: 0 auto;
@@ -57,6 +71,7 @@ body {
 
 .article p, h3 {
     color: white;
+    text-align: center;
 }
 
 
@@ -65,3 +80,52 @@ body {
     height: 400px;
 }
 
+#Skins {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+#Skins img {
+    width: 100%;
+}
+
+#Skins div {
+    width: 400px;
+    height: 400px;
+}
+
+.h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+section p {
+    color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-bottom: 50px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: #;
+}
+
+form input {
+    text-align: center;
+    margin-bottom: 16px 16px 8px 16px;
+    padding: 7px;
+    background-color: #ffffff
+}
